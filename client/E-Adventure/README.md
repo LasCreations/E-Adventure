@@ -8,6 +8,8 @@
    npm install @react-navigation/native @react-navigation/native-stack
    npx expo install react-native-screens react-native-safe-area-context
    npx expo install firebase
+   npm install -g firebase-tools
+   npx expo customize metro.config.js
    ```
 
 2. Start the app
