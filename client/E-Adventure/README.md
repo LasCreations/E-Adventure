@@ -10,6 +10,11 @@
    npx expo install firebase
    npm install -g firebase-tools
    npx expo customize metro.config.js
+   npm install @react-native-picker/picker --save
+   npm install react-phone-number-input
+   npm install react-native-country-picker-modal
+   npm install react-country-state-city
+   npm i react-native-country-codes-picker
    ```
 
 2. Start the app
