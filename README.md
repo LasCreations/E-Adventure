@@ -15,6 +15,11 @@
    npm install react-native-country-picker-modal
    npm install react-country-state-city
    npm i react-native-country-codes-picker
+   npm install react-native-date-picker
+   npx expo install @react-native-community/datetimepicker
+   npx expo install react-native-modal-datetime-picker @react-native-community/datetimepicker
+   npm install date-fns
+   npm i country-state-picker --save
    ```
 
 2. Start the app

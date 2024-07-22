@@ -32,8 +32,8 @@ const Landing = () => {
             const response = await signInWithEmailAndPassword(auth, email, password);
             console.log(response);
             alert('Login Successful')
-            // if (response) router.push('./(tabs)/home' )
-            if (response) router.push('./setup')
+            if (response) router.push('./(tabs)/home' )
+            // if (response) router.push('./setup')
         } catch (error: any) {
             console.log(error);
             alert('Sign In Failed: ' + error.message);
