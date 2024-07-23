@@ -7,6 +7,7 @@
    npm install
    npm install @react-navigation/native @react-navigation/native-stack
    npx expo install react-native-screens react-native-safe-area-context
+   npx expo install @react-native-google-signin/google-signin
    npx expo install firebase
    npm install -g firebase-tools
    npx expo customize metro.config.js
