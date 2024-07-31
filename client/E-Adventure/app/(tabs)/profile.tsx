@@ -18,7 +18,7 @@ interface User {
   username: string;
 }
 
-export default function One() {
+export default function Profile() {
   const router = useRouter();
   const { uid } = useLocalSearchParams<{ uid: string }>();
   const [userData, setUserData] = useState<User | null>(null);

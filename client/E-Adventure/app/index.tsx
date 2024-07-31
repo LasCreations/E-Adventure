@@ -1,10 +1,11 @@
+import styles from '@/stylesheets/default';
 import { Link } from 'expo-router';
 import React from 'react';
 import { View, Text, Button, StatusBar } from 'react-native';
 
 export default function Landing() {
     return (
-        <View>
+        <View style={styles.container}>
             <Text>Landing</Text>
             <Link href="/register" asChild>
                 <Button title='Register' />

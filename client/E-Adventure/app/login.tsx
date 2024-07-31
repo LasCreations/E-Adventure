@@ -23,7 +23,7 @@ export default function Login() {
         console.log(response);
         if (response){
             router.push({
-                pathname: '/(tabs)/one',
+                pathname: '/(tabs)/profile',
                 params: { uid: response.user.uid }
               });
         }

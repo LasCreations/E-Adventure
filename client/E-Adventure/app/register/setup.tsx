@@ -101,7 +101,7 @@ export default function Setup() {
                 });
             }
             router.push({
-                pathname: '/(tabs)/one',
+                pathname: '/(tabs)/profile',
                 params: { uid: uid }
               });
         } catch (e) {
