@@ -49,7 +49,8 @@
     "react-native-screens": "3.31.1",
     "react-native-web": "~0.19.10",
     "react-phone-number-input": "^3.4.3",
-    "rn-country-picker": "^1.0.6"
+    "rn-country-picker": "^1.0.6",
+    "expo-linear-gradient": "~13.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

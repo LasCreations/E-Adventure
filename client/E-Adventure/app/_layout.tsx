@@ -13,7 +13,7 @@ export default function Layout() {
         },
         headerTintColor: 'white'
       }}>
-      <Stack.Screen name='index' options={{ title: 'Elite Excursions' }} />
+      <Stack.Screen name='index' options={{ headerShown: false }} />
       
       <Stack.Screen name='register/index' options={{ title: 'Register', 
                                                       headerRight: () => (<Button title='Login' onPress={() => router.push('/login')} />) }} />

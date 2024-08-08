@@ -21,6 +21,7 @@
    npx expo install react-native-modal-datetime-picker @react-native-community/datetimepicker
    npm install date-fns
    npm i country-state-picker --save
+   npx expo install expo-linear-gradient
    ```
 
 2. Start the app
