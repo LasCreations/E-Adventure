@@ -15,6 +15,8 @@ export default function Layout() {
       }}>
       <Stack.Screen name='index' options={{ headerShown: false }} />
       
+      <Stack.Screen name='landing' options={{ headerShown: false }} />
+
       <Stack.Screen name='register/index' options={{ title: 'Register', 
                                                       headerRight: () => (<Button title='Login' onPress={() => router.push('/login')} />) }} />
       <Stack.Screen name='register/setup' options={{ title: 'Set Up Profile' }} />
